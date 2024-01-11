@@ -8,24 +8,24 @@
 function Position() {
   return (
     <>
- {/* <div className="static bg-red-200 border-blue-100 border">
+      {/* <div className="static bg-red-200 border-blue-100 border">
     <p>Static parent</p>
     <div className="absolute bottom-0 left-0 ...">
       <p>Absolute child</p>
     </div>
   </div> */}
 
-  <div className="relative">
-  <p>Relative parent</p>
-  <div className="absolute bottom-0 left-0 ...">
-    <p>Absolute child</p>
-  </div>
-</div>
+      <div className="relative">
+        <p>Relative parent</p>
+        <div className="absolute bottom-0 left-0 ...">
+          <p>Absolute child</p>
+        </div>
+      </div>
 
 
-  
+
     </>
-   
+
   )
 }
 
