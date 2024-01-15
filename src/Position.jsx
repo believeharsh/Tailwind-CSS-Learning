@@ -5,10 +5,8 @@
 
 // Any offsets will be ignored and the element will not act as a position reference for absolutely positioned children.
 
-
 // Static
 // This is the default value for elements. The element is positioned according to the normal flow of the document. The left, right, top, bottom and z-index properties do not affect an element with position: static.
-
 
 // Relative
 // Elements with position: relative remain in the normal flow of the document. But, unlike static elements, the left, right, top, bottom and z-index properties affect the position of the element. An offset, based on the values of left, right, top and bottom properties, is applied to the element relative to itself.
@@ -20,7 +18,6 @@
 // Fixed position elements are similar to absolutely positioned elements. They are also removed from the normal flow of the document. But unlike absolutely positioned element, they are always positioned relative to the <html> element.
 
 // One thing to note is that fixed elements are not affected by scrolling. They always stay in the same position on the screen.
-
 
 // Sticky
 // position: sticky is a mix of position: relative and position: fixed. It acts like a relatively positioned element until a certain scroll point and then it acts like a fixed element.
@@ -50,9 +47,7 @@ function Position() {
       <div className="w-[100%] h-[200vh] absolute top-[0px]">
         <aside className="w-[300px] bg-blue-400 h-[80vh] sticky top-[80px]"></aside>
       </div>
-      <div className="w-20 h-20 fixed right-10 bottom-10 border-black rounded-xl hover:bg-white hover:border-black border-[2px] bg-blue-900">
-
-      </div>
+      <div className="w-20 h-20 fixed right-10 bottom-10 border-black rounded-xl hover:bg-white hover:border-black border-[2px] bg-blue-900"></div>
 
       <footer className="w-[100%] h-[20px] bg-black z-10"></footer>
     </>
