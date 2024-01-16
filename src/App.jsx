@@ -1,5 +1,6 @@
-import Position from "./Position"
-import Variables from "./Variables"
+// import Position from "./Position"
+// import Variables from "./Variables"
+import StateInTailwind from "./StateInTailwind"
 
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
 
   return (
     <>
-    {/* <Position/> */}
-    <Variables/>
+    <div className="bg-black w-full h-[100vh] pt-12">
+      <StateInTailwind/>
+    </div>
     </>
   )
 }
