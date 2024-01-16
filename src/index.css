@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.LearnApply{
+    @apply bg-black border-white border-[1px] 
+}

@@ -1,4 +1,5 @@
 import Position from "./Position"
+import Variables from "./Variables"
 
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-    <Position/>
+    {/* <Position/> */}
+    <Variables/>
     </>
   )
 }
